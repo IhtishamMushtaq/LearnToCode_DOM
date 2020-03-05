@@ -6,6 +6,8 @@ padding : 0;
 margin: 0;
 box-sizing: border-box;
 overflow-x: hidden;
+background-repeat: no-repeat;
+background-repeat: space;
 } 
 .top {
  display: flex;
@@ -84,6 +86,8 @@ overflow-x: hidden;
 color: white;
 display: flex;
 justify-content: center;
+opacity: 100%;
+
 
     }
 .btn2 {
@@ -118,4 +122,34 @@ form {
 .ts {
     color: red;
     padding-left: -5px;
+}
+
+
+
+@media (min-width: 768px){
+.total {
+    display: flex;
+
+}
+.container1{
+    margin-top: 20vh;
+}
+.container2 {
+    margin-top: 20vh;
+}
+.para1{
+    width: 85%;
+    font-size: x-small;
+}
+.btn {
+    width: 90%;
+    text-align: line;
+    
+}
+.copyright {
+    width: 100%;
+}
+.ts{
+    padding-left: 1px;
+}
 }

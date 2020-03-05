@@ -1,0 +1,121 @@
+* {
+    font-family: 'Poppins', sans-serif;
+background-image: url(images/bg-intro-mobile.png);
+background-color: hsl(0, 100%, 74%);
+padding : 0;
+margin: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+} 
+.top {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.learnToCode {
+    color: white;
+    width: 65%;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    align-self: center;
+    margin-bottom:1.3rem;
+}
+.paraContainer{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 3rem;
+}
+.para1{
+    width: 80%;
+    text-align: center;
+    font-size: small;
+
+}
+.btn{
+    width: 86%;
+    padding-top: 0.8rem  ;
+    padding-bottom: 0.8rem  ;
+    border-radius: 0.6rem;
+    background-color:  hsl(248, 32%, 49%);
+    color: white;
+    margin-bottom: 0.8rem;
+    border-style: none;
+    font-size: small;
+    text-align: center;
+}
+.btn nav {
+    background-color:  hsl(248, 32%, 49%);
+    font-weight: bold;
+}
+
+
+
+.forM {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 0.5rem;
+}
+.fEle {
+    width: 90%;
+    margin: 0.5rem auto;
+    margin-left: 5%;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 0.4rem;
+    border-style: solid ;
+    border-color:rgb(209, 207, 207);
+    border-width: 1px;
+    height: 2.5rem;
+    font-size: x-small;
+    font-weight: bold;
+}
+.forM {
+    background-color: white;
+    width: 90%;
+    margin-left:5% ;
+    border: solid;
+color: white;
+display: flex;
+justify-content: center;
+
+    }
+.btn2 {
+    background-color:  hsl(154, 59%, 51%);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    width: 90%;
+    margin-left: 5%;
+    height: 2.6rem;
+    border-radius: 0.4rem;
+    border-style: none;
+    padding-bottom: 0.1rem;
+
+}
+form {
+    background-color: white;
+    margin-bottom: 1rem;
+
+}
+.copyright {
+    margin-top: 0.1rem;
+    display: inline;
+    background-color: white;
+    color: gray;
+    font-size:  x-small;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.ts {
+    color: red;
+    padding-left: -5px;
+}

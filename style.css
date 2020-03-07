@@ -146,8 +146,9 @@ margin-left: 10%;
     background-repeat: no-repeat;
     height: 100%vh;
     margin-bottom: 2cm;
-    padding-bottom: 7cm;
-    overflow-y: hidden;
+    padding-bottom: 1cm;
+    overflow-y: none;
+    
 
 }
 .container1{

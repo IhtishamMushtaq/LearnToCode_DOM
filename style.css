@@ -139,23 +139,30 @@ margin-left: 10%;
 
 
 @media (min-width: 1024px){
-
+*{
+     overflow: hidden;
+}
     .total {
     display: flex;
     background-image: url(images/bg-intro-desktop.png);
     background-repeat: no-repeat;
-    height: 100%vh;
+    
     margin-bottom: 2cm;
-    padding-bottom: 1cm;
-    overflow-y: none;
+    padding-bottom: 3.7cm;
+    overflow: hidden;
     
 
 }
 .container1{
     margin-top: 20vh;
 }
+.one {
+    margin-top: 27px;
+}
 .container2 {
+    
     margin-top: 20vh;
+    margin-right: 2cm;
 }
 .para1{
     width: 65%;
@@ -188,5 +195,6 @@ margin-left: 10%;
 }
 .bottom {
 background-color: white;
+padding-bottom: 1cm ;
 }
 }

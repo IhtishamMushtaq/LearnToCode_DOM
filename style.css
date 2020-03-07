@@ -5,13 +5,15 @@
 padding : 0;
 margin: 0;
 box-sizing: border-box;
-overflow-x: hidden;
+overflow: hidden;
 background-repeat: no-repeat;
 background-repeat: space;
+margin-bottom: 20px;
 }
 .total{
     background-image: url(images/bg-intro-mobile.png);
     background-color: hsl(0, 100%, 74%);
+    
 } 
 .top {
  display: flex;

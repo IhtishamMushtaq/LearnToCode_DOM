@@ -5,10 +5,10 @@
 padding : 0;
 margin: 0;
 box-sizing: border-box;
-overflow: hidden;
+overflow-x: hidden;
 background-repeat: no-repeat;
 background-repeat: space;
-margin-bottom: 20px;
+
 }
 .total{
     background-image: url(images/bg-intro-mobile.png);
@@ -124,6 +124,7 @@ form {
     width: 80%;
     
     
+    
 }
 .ts {
     margin-left: 4px;
@@ -136,6 +137,9 @@ form {
 width: 80%;
 justify-content: center;
 margin-left: 10%;
+}
+.container2{
+    margin-bottom: 15px;
 }
 
 
